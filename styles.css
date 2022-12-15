@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary: #b91c1c;
+  --grey: #f3f4f6;
+  --dark-grey: #6b7280;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.text-sm {
+  font-size: 0.8rem;
+}
+
+/** containers **/
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container {
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+}
+
+/** links **/
+
+.primary-link {
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary);
+  width: max-content;
+  min-width: 140px;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.secondary-link {
+  text-decoration: none;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  width: max-content;
+  min-width: 140px;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/** nav **/
+.navigation {
+  background-color: var(--primary);
+  padding: 1rem 0rem;
+  color: white;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .brand {
+  font-weight: bold;
+  font-size: large;
+}
+
+.navigation ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navigation li {
+  display: inline-block;
+  padding: 0rem 0.8rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation .active {
+  font-weight: bold;
+}
+
+/** header **/
+
+.user-avatar {
+  padding: 2rem;
+  padding-top: 5rem;
+  color: var(--dark-grey);
+  display: block;
+}
+
+.user-avatar img {
+  max-width: 80%;
+  width: 550px;
+  display: block;
+  margin: auto;
+}
+
+.user-avatar .user-avatar-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--dark-gray);
+}
+
+.user-avatar .user-avatar-heading .heading-inverted {
+  color: var(--primary);
+  display: block;
+}
+
+/** section **/
+
+.section {
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.section h2 {
+  text-align: center;
+}
+
+.grey {
+  background-color: var(--grey);
+}
+
+/** lists **/
+
+.unordered {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/** footer **/
+.footer {
+  background-color: var(--primary);
+  color: white;
+  padding: 2rem 0rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer .heading {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer .link {
+  color: white;
+}
