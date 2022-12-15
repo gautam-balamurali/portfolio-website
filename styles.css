@@ -123,6 +123,11 @@ hr {
 
 .section h2 {
   text-align: center;
+  margin: 0.5rem;
+}
+
+.section p {
+  padding-bottom: 1rem;
 }
 
 .grey {
