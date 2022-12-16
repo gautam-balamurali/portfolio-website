@@ -2,6 +2,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0px auto;
+  max-width: 85%;
+  width: 100%;
 }
 
 :root {
@@ -19,16 +22,27 @@ hr {
 }
 
 /** containers **/
+
+.container {
+  padding: 0rem 1rem;
+}
+
 .container-fluid {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.container {
+.container-footer {
   margin: auto;
   padding-left: 1rem;
   padding-right: 1rem;
   max-width: 600px;
+}
+
+.container-center {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
 }
 
 /** links **/
@@ -54,6 +68,7 @@ hr {
 }
 
 /** nav **/
+
 .navigation {
   background-color: var(--primary);
   padding: 1rem 0rem;
@@ -146,6 +161,7 @@ hr {
 }
 
 /** footer **/
+
 .footer {
   background-color: var(--primary);
   color: white;
@@ -165,4 +181,38 @@ hr {
 
 .footer .link {
   color: white;
+}
+
+/** media queries **/
+
+@media (max-width: 900px) {
+  body {
+    max-width: 95%;
+    width: 100%;
+  }
+
+  .list-inline li {
+    display: inline;
+    padding: 0.5rem;
+  }
+
+  .navigation li {
+    display: inline-block;
+    padding: 0.3rem;
+  }
+
+  .container-center {
+    width: auto;
+  }
+
+  .section a {
+    display: inline;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: x-small;
+  }
 }
