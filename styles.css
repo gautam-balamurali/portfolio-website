@@ -24,7 +24,7 @@ hr {
 /** containers **/
 
 .container {
-  padding: 0rem 1rem;
+  padding: 0rem 0rem;
 }
 
 .container-fluid {
@@ -143,6 +143,7 @@ hr {
 
 .section p {
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .grey {
@@ -211,7 +212,13 @@ hr {
   }
 }
 
-@media (max-width: 300px) {
+@media screen and (min-width: 911px) and (max-width: 915px) {
+  body {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 321px) {
   body {
     font-size: x-small;
   }
