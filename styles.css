@@ -13,7 +13,7 @@ body {
   --primary: #b91c1c;
   --secondary: #fef2f2;
   --tertiary: #fee2e2;
-  --primary-major: #7f1d1d;
+  --primary-major: rgb(47, 46, 65);
 }
 
 hr {
