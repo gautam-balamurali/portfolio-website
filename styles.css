@@ -2,6 +2,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(--primary);
+  background-color: var(--secondary);
   margin: 0px auto;
   max-width: 85%;
   width: 100%;
@@ -9,8 +11,9 @@ body {
 
 :root {
   --primary: #b91c1c;
-  --grey: #f3f4f6;
-  --dark-grey: #6b7280;
+  --secondary: #fef2f2;
+  --tertiary: #fee2e2;
+  --primary-major: #7f1d1d;
 }
 
 hr {
@@ -49,7 +52,7 @@ hr {
 
 .primary-link {
   text-decoration: none;
-  color: white;
+  color: var(--secondary);
   background-color: var(--primary);
   width: max-content;
   min-width: 140px;
@@ -65,6 +68,7 @@ hr {
   min-width: 140px;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: var(--secondary);
 }
 
 /** nav **/
@@ -72,7 +76,7 @@ hr {
 .navigation {
   background-color: var(--primary);
   padding: 1rem 0rem;
-  color: white;
+  color: var(--secondary);
   border-bottom-left-radius: 1rem;
 }
 
@@ -93,7 +97,7 @@ hr {
 
 .navigation a {
   text-decoration: none;
-  color: white;
+  color: var(--secondary);
 }
 
 .navigation .active {
@@ -105,7 +109,7 @@ hr {
 .user-avatar {
   padding: 2rem;
   padding-top: 5rem;
-  color: var(--dark-grey);
+  color: var(--tertiary);
   display: block;
 }
 
@@ -119,11 +123,11 @@ hr {
 .user-avatar .user-avatar-heading {
   text-align: center;
   padding-top: 1rem;
-  color: var(--dark-gray);
+  color: var(--primary);
 }
 
 .user-avatar .user-avatar-heading .heading-inverted {
-  color: var(--primary);
+  color: var(--primary-major);
   display: block;
 }
 
@@ -146,8 +150,8 @@ hr {
   text-align: center;
 }
 
-.grey {
-  background-color: var(--grey);
+.tertiary {
+  background-color: var(--tertiary);
 }
 
 /** lists **/
@@ -165,7 +169,7 @@ hr {
 
 .footer {
   background-color: var(--primary);
-  color: white;
+  color: var(--secondary);
   padding: 2rem 0rem;
   border-top-right-radius: 1rem;
   text-align: center;
@@ -181,7 +185,12 @@ hr {
 }
 
 .footer .link {
-  color: white;
+  color: var(--secondary);
+}
+
+.tech-stack {
+  color: var(--primary-major);
+  font-weight: bold;
 }
 
 /** media queries **/
