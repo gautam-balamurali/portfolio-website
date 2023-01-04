@@ -11,6 +11,7 @@
 
 * HTML
 * CSS
+* JavaScript
 * Netlify
 
 # Preview
