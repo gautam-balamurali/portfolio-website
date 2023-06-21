@@ -48,6 +48,10 @@ hr {
   margin: auto;
 }
 
+.container h2 {
+  letter-spacing: 0.1em;
+}
+
 /** links **/
 
 .primary-link {
